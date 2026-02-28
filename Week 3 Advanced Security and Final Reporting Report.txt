@@ -1,0 +1,21 @@
+Documentation Report:
+Steps:
+
+•	Register: test@test.com / 123456
+•	Login: Same credentials → Token save 
+•	Dashboard: Token access
+•	SQL Injection Test: Attack blocked 
+•	XSS Test: Attack blocked
+
+Summary:
+
+Feature	Status
+Input Validation	Validator Library
+Password Hashing	Bycrypt with Salt
+JWT Tokens	Token generation + verification
+Rate Limiting	Express-rate-limit
+Logging	Winston library
+Penetration Testing	SQL Injections + XSS buttons
+Protected Routes	Dashboard with token auth
+
+

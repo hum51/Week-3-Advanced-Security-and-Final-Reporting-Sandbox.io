@@ -1,0 +1,18 @@
+{
+  "name": "week3-security-app",
+  "version": "1.0.0",
+  "description": "Week 3 Advanced Security Implementation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "validator": "^13.9.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "winston": "^3.10.0",
+    "express-rate-limit": "^6.10.0",
+    "dotenv": "^16.3.1"
+  }
+}
